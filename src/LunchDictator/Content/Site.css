@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #f1f6fa;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +23,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.places-box { margin-top: 30px; }
+.img-place { border-radius: 5px; width: 80px; height: 80px; }
+.place-name { font-size: 30px; padding-left: 20px; }
