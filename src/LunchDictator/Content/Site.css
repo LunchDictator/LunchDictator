@@ -1,7 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: #f1f6fa;
+    padding-bottom: 20px;  
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -25,5 +24,6 @@ textarea {
 }
 
 .places-box { margin-top: 30px; }
-.img-place { border-radius: 5px; width: 80px; height: 80px; }
+.img-place { border-radius: 5px; }
 .place-name { font-size: 30px; padding-left: 20px; }
+.image-box { height: 180px; }

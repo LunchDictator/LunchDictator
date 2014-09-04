@@ -1,8 +1,8 @@
-﻿using System.Web;
-using System.Web.Optimization;
-
-namespace LunchDictator
+﻿namespace LunchDictator
 {
+    using System.Web;
+    using System.Web.Optimization;
+
     public class BundleConfig
     {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
@@ -24,8 +24,7 @@ namespace LunchDictator
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                     // "~/Content/bootstrap-theme.css",
+                      "~/Content/bootstrap.css",                  
                       "~/Content/site.css"));
 
             // Set EnableOptimizations to false for debugging. For more information,
