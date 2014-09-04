@@ -39,6 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -112,8 +118,17 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataAccess\Entities\BaseEntity.cs" />
+    <Compile Include="DataAccess\Entities\Place.cs" />
+    <Compile Include="DataAccess\Entities\PlaceSelection.cs" />
+    <Compile Include="DataAccess\LunchContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\Migrations\Configuration.cs" />
+    <Compile Include="DataAccess\Migrations\201409042152208_InitialDatabaseSetup.cs" />
+    <Compile Include="DataAccess\Migrations\201409042152208_InitialDatabaseSetup.Designer.cs">
+      <DependentUpon>201409042152208_InitialDatabaseSetup.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Models\PlaceViewModel.cs" />
@@ -162,6 +177,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataAccess\Migrations\201409042152208_InitialDatabaseSetup.resx">
+      <DependentUpon>201409042152208_InitialDatabaseSetup.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
