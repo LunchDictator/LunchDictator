@@ -3,14 +3,14 @@
     ViewBag.Title = "Home Page";
 }
 
-<h1>Today we go to: <em>Subway</em></h1>
+<h1>Today we go to: <em>@Model.SelectedPlace</em></h1>
 
 <div class="places-box">
     <div class="row">
         @foreach (var p in Model.Places)
         {
             <div class="col-sm-3">
-                <div class="panel panel-default place-box">
+                <div class="panel panel-default @(p.IsSelected ? "selected-place" : string.Empty) ">
                     <div class="panel-body">
                         <div class="image-box">
                             <img src="@p.ImageUrl" class="img-place img-responsive" />

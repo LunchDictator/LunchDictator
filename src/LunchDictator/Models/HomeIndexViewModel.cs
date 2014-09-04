@@ -4,6 +4,8 @@
 
     public class HomeIndexViewModel
     {
+        public string SelectedPlace { get; set; }
+
         public List<PlaceViewModel> Places { get; set; }
     }
 }

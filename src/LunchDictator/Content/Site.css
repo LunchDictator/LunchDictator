@@ -27,3 +27,4 @@ textarea {
 .img-place { border-radius: 5px; }
 .place-name { font-size: 30px; padding-left: 20px; }
 .image-box { height: 180px; }
+.selected-place { box-shadow: 0 0 15px #800000 !important; }
