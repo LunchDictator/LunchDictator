@@ -15,7 +15,7 @@ namespace LunchDictator.DataAccess.Migrations
         protected override void Seed(LunchContext context)
         {
             context.Places.AddOrUpdate(
-                e => e.Id,
+                e => e.Name,
                 new Place
                 {
                     Id = 1,
@@ -26,7 +26,7 @@ namespace LunchDictator.DataAccess.Migrations
                 new Place
                 {
                     Id = 2,
-                    ImageUrl = "http://www.fastfind.info/photos/greggs_phppogjnl_big.jpg",
+                    ImageUrl = "http://www.caratmanchester.co.uk/uploads/134545511071057/resize_then_crop_540_350.jpg",
                     Name = "Greggs"
                 },
                 new Place
