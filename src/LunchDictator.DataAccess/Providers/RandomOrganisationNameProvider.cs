@@ -10,17 +10,16 @@ namespace LunchDictator.DataAccess.Providers
 
     public static class RandomOrganisationNameProvider
     {
+        private static readonly Random Randomiser = new Random();
+
         // Gets a new random organisation name
         public static string GetRandomOrganisationName()
         {
-            // Set up randomiser
-            var random = new Random();
-
             // Determine which name parts to use. Always use nouns.
-            var useArticle = random.Next(0, 2) > 0;
-            var useVerb = random.Next(0, 2) > 0;
-            var useAdjective = random.Next(0, 2) > 0;
-            var useAdverb = useVerb && random.Next(0, 2) > 0;
+            var useArticle = Randomiser.Next(0, 2) > 0;
+            var useVerb = Randomiser.Next(0, 2) > 0;
+            var useAdjective = Randomiser.Next(0, 2) > 0;
+            var useAdverb = useVerb && Randomiser.Next(0, 2) > 0;
 
             var name = new StringBuilder();
 
@@ -53,9 +52,8 @@ namespace LunchDictator.DataAccess.Providers
         {
             using (var ctx = new LunchContext())
             {
-                var random = new Random();
                 var parts = ctx.OrganisationNameParts.Where(x => x.OrganisationNamePartType == namePartType).Select(x => x.Value).ToList();
-                return parts[random.Next(parts.Count)];
+                return parts[Randomiser.Next(parts.Count)];
             }
         }
     }
