@@ -173,9 +173,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LunchDictator.DataAcces\LunchDictator.DataAcces.csproj">
+    <ProjectReference Include="..\LunchDictator.DataAccess\LunchDictator.DataAccess.csproj">
       <Project>{AF6417DC-C697-46B7-BFE4-034CEED1C072}</Project>
-      <Name>LunchDictator.DataAcces</Name>
+      <Name>LunchDictator.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
