@@ -45,7 +45,7 @@ namespace LunchDictator.DataAccess.Migrations.Initializers
                 new OrganisationNamePart
                 {
                     Id = 5,
-                    Value = "Minimal",
+                    Value = "Half A Dozen",
                     OrganisationNamePartType = OrganisationNamePartType.Article
                 });
 
