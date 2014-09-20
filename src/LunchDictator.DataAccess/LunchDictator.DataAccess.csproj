@@ -50,12 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\Organisation.cs" />
     <Compile Include="Entities\Place.cs" />
     <Compile Include="Entities\PlaceSelection.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="LunchContext.cs" />
     <Compile Include="Migrations\201409042152208_InitialDatabaseSetup.cs" />
     <Compile Include="Migrations\201409042152208_InitialDatabaseSetup.Designer.cs">
       <DependentUpon>201409042152208_InitialDatabaseSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201409202017018_AddUsersAndOrganisations.cs" />
+    <Compile Include="Migrations\201409202017018_AddUsersAndOrganisations.Designer.cs">
+      <DependentUpon>201409202017018_AddUsersAndOrganisations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +69,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201409042152208_InitialDatabaseSetup.resx">
       <DependentUpon>201409042152208_InitialDatabaseSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409202017018_AddUsersAndOrganisations.resx">
+      <DependentUpon>201409202017018_AddUsersAndOrganisations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

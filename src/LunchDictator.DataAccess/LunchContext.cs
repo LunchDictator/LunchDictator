@@ -20,5 +20,9 @@
         public IDbSet<Place> Places { get; set; }
 
         public IDbSet<PlaceSelection> PlaceSelections { get; set; }
+
+        public IDbSet<User> Users { get; set; }
+
+        public IDbSet<Organisation> Organisations { get; set; }
     }
 }
