@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchDictator.DataAcces", "LunchDictator.DataAcces\LunchDictator.DataAcces.csproj", "{AF6417DC-C697-46B7-BFE4-034CEED1C072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchDictator.DataAccess", "LunchDictator.DataAcces\LunchDictator.DataAccess.csproj", "{AF6417DC-C697-46B7-BFE4-034CEED1C072}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchDictator.Web", "LunchDictator.Web\LunchDictator.Web.csproj", "{9A83E342-72DD-46D5-913C-FF1BD29B83C2}"
 EndProject
