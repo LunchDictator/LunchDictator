@@ -1,6 +1,5 @@
-﻿namespace LunchDictator
+﻿namespace LunchDictator.Web
 {
-    using System.Web;
     using System.Web.Optimization;
 
     public class BundleConfig

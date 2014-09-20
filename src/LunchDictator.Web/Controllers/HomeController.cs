@@ -1,13 +1,12 @@
-﻿namespace LunchDictator.Controllers
+﻿namespace LunchDictator.Web.Controllers
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using System.Web.Mvc;
 
     using LunchDictator.DataAccess;
     using LunchDictator.DataAccess.Entities;
-    using LunchDictator.Models;
+    using LunchDictator.Web.Models;
 
     public class HomeController : Controller
     {

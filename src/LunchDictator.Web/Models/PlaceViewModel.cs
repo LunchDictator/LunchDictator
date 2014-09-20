@@ -1,4 +1,4 @@
-﻿namespace LunchDictator.Models
+﻿namespace LunchDictator.Web.Models
 {
     public class PlaceViewModel
     {
