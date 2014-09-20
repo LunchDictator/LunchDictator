@@ -8,9 +8,10 @@ namespace LunchDictator.DataAccess.Enums
 {
     public enum OrganisationNamePartType
     {
-        Adverb = 0,
-        Verb = 1,
-        Adjective = 2,
-        Noun = 3
+        Article = 0,
+        Adverb = 1,
+        Verb = 2,
+        Adjective = 3,
+        Noun = 4
     }
 }

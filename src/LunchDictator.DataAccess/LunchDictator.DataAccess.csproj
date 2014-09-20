@@ -70,7 +70,9 @@
       <DependentUpon>201409202023257_AddOrganisationNameParts.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Initializers\OrganisationNamePartsInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\RandomOrganisationNameProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201409042152208_InitialDatabaseSetup.resx">
