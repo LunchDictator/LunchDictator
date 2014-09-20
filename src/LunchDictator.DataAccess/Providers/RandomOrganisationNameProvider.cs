@@ -8,10 +8,10 @@ namespace LunchDictator.DataAccess.Providers
 {
     using LunchDictator.DataAccess.Enums;
 
-    public class RandomOrganisationNameProvider
+    public static class RandomOrganisationNameProvider
     {
         // Gets a new random organisation name
-        public string GetRandomOrganisationName()
+        public static string GetRandomOrganisationName()
         {
             // Set up randomiser
             var random = new Random();
