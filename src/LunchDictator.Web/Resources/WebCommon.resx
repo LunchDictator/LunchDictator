@@ -129,6 +129,9 @@
   <data name="ActivateSubmit" xml:space="preserve">
     <value>Activate</value>
   </data>
+  <data name="ActivationEmailSubject" xml:space="preserve">
+    <value>Activate your account</value>
+  </data>
   <data name="ConfirmPassword" xml:space="preserve">
     <value>Confirm Password</value>
   </data>

@@ -64,10 +64,16 @@
             {
                 try
                 {
-                    LunchContext.Users.Add(new User { EmailAddress = model.Username, PasswordChangeSecret = Guid.NewGuid() });
+                    var user = LunchContext.Users.Add(new User { EmailAddress = model.Username, PasswordChangeSecret = Guid.NewGuid() });
+                    var activationUrl =
+                        string.Format(
+                            "To activate your lunchdictator account please click <a href='{0}{1}'>here</a>",
+                            HttpContext.Request.Url.GetCurrentUrl(),
+                            Url.Action("Activate", "Account", new { passwordChangeSecret = user.PasswordChangeSecret }));
+
+                    await EmailSender.SendEmail(model.Username, WebCommon.ActivationEmailSubject, activationUrl);
                     await LunchContext.SaveChangesAsync();
 
-                    // send activation email
                     model.Message = WebCommon.RegistrationSuccess;
                 }
                 catch (DbEntityValidationException ex)

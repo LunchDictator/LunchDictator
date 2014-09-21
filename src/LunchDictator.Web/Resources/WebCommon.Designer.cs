@@ -97,6 +97,15 @@ namespace LunchDictator.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Activate your account.
+        /// </summary>
+        public static string ActivationEmailSubject {
+            get {
+                return ResourceManager.GetString("ActivationEmailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm Password.
         /// </summary>
         public static string ConfirmPassword {
