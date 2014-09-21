@@ -73,6 +73,10 @@
     <Compile Include="Migrations\201409211641490_AddedPasswordChangeSecret.Designer.cs">
       <DependentUpon>201409211641490_AddedPasswordChangeSecret.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201409211709042_AlteredPasswordChangeSecretToNullable.cs" />
+    <Compile Include="Migrations\201409211709042_AlteredPasswordChangeSecretToNullable.Designer.cs">
+      <DependentUpon>201409211709042_AlteredPasswordChangeSecretToNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Initializers\OrganisationNamePartsInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409211641490_AddedPasswordChangeSecret.resx">
       <DependentUpon>201409211641490_AddedPasswordChangeSecret.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409211709042_AlteredPasswordChangeSecretToNullable.resx">
+      <DependentUpon>201409211709042_AlteredPasswordChangeSecretToNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

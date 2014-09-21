@@ -17,14 +17,14 @@
     public class AccountController : BaseController
     {
         [AllowAnonymous]
-        public ActionResult Login(string returnUrl)
+        public ActionResult LogIn(string returnUrl)
         {
             return this.View("LoginOrRegister", new AccountLoginOrRegisterViewModel { ReturnUrl = returnUrl });
         }
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<ActionResult> Login(AccountLoginOrRegisterViewModel model)
+        public async Task<ActionResult> LogIn(AccountLoginOrRegisterViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -35,7 +35,7 @@
 
             if (user != null && user.Password == HashHelper.GetHash(model.Password))
             {
-                FormsAuthentication.SetAuthCookie(user.EmailAddress, true);
+                this.LogInInternal(user.EmailAddress);
                 return this.Redirect(model.ReturnUrl ?? FormsAuthentication.DefaultUrl);
             }
 
@@ -79,7 +79,6 @@
                             ModelState.AddModelError(string.Empty, error.ErrorMessage);
                         }
                     }
-
                 }
             }
 
@@ -93,9 +92,41 @@
         }
 
         [AllowAnonymous]
-        public ActionResult Validate()
+        public async Task<ActionResult> Activate(Guid passwordChangeSecret)
         {
-            return this.View();
+            var user =
+                await LunchContext.Users.SingleOrDefaultAsync(u => u.PasswordChangeSecret == passwordChangeSecret);
+
+            return user == null
+                       ? this.View("ActivateSecretInvalid")
+                       : this.View(new AccountActivateViewModel { PasswordChangeSecret = passwordChangeSecret });
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<ActionResult> Activate(AccountActivateViewModel model)
+        {
+            var user =
+                await LunchContext.Users.SingleOrDefaultAsync(u => u.PasswordChangeSecret == model.PasswordChangeSecret);
+
+            if (user == null)
+            {
+                return this.View("ActivateSecretInvalid");
+            }
+
+            user.Password = HashHelper.GetHash(model.Password);
+            user.PasswordChangeSecret = null;
+
+            await LunchContext.SaveChangesAsync();
+
+            this.LogInInternal(user.EmailAddress);
+
+            return this.RedirectToAction("Index", "Home");
+        }
+
+        private void LogInInternal(string username)
+        {
+            FormsAuthentication.SetAuthCookie(username, true);
         }
     }
 }

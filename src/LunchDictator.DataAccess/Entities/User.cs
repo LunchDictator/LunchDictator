@@ -10,6 +10,6 @@
 
         public string Password { get; set; }
 
-        public Guid PasswordChangeSecret { get; set; }
+        public Guid? PasswordChangeSecret { get; set; }
     }
 }

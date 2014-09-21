@@ -61,6 +61,51 @@ namespace LunchDictator.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please activate your account.
+        /// </summary>
+        public static string ActivatePageTitle {
+            get {
+                return ResourceManager.GetString("ActivatePageTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The activation link has expired.
+        /// </summary>
+        public static string ActivateSecretInvalidDescription {
+            get {
+                return ResourceManager.GetString("ActivateSecretInvalidDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Activation Expired.
+        /// </summary>
+        public static string ActivateSecretInvalidPageTitle {
+            get {
+                return ResourceManager.GetString("ActivateSecretInvalidPageTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Activate.
+        /// </summary>
+        public static string ActivateSubmit {
+            get {
+                return ResourceManager.GetString("ActivateSubmit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Password.
+        /// </summary>
+        public static string ConfirmPassword {
+            get {
+                return ResourceManager.GetString("ConfirmPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This email is already in use.
         /// </summary>
         public static string LoginAlreadyTaken {
@@ -93,6 +138,15 @@ namespace LunchDictator.Web.Resources {
         public static string Password {
             get {
                 return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your new password and confirm.
+        /// </summary>
+        public static string PleaseEnterNewPassword {
+            get {
+                return ResourceManager.GetString("PleaseEnterNewPassword", resourceCulture);
             }
         }
         
