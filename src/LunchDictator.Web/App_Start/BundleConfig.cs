@@ -22,9 +22,11 @@
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",                  
+            bundles.Add(new StyleBundle("~/Content/css").Include(                                 
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/bundles/app").Include(
+                      "~/Scripts/app/ldApp.js"));
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862

@@ -1,0 +1,46 @@
+﻿@model AccountLoginOrRegisterViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @Html.ValidationSummary()
+        
+        @if (!string.IsNullOrWhiteSpace(Model.Message))
+        {
+            <div class="panel panel-success">
+                <div class="panel-heading">@Model.Message</div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3 col-md-offset-3">
+        <form action="@Url.Action("LogIn", "Account")" method="POST" name="loginForm">
+            @Html.HiddenFor(m => m.ReturnUrl)           
+            <h2>@WebCommon.PleaseLogIn</h2>
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.Username, new { id = "username", placeholder = @WebCommon.Username, @class = "form-control login-username", ng_model = "loginUsername", required = "required" })
+                @Html.PasswordFor(m => m.Password, new { id = "username", placeholder = @WebCommon.Password, @class = "form-control login-password", ng_model = "loginPassword", required = "required" })
+            </div>
+            <button type="submit" ng-disabled="loginForm.$invalid" class="btn btn-success btn-block">@WebCommon.LoginSubmit</button>
+        </form>
+    </div>
+    <div class="col-md-3">
+        <form action="@Url.Action("Register", "Account")" method="POST" name="registerForm">              
+            <h2>@WebCommon.PleaseRegister</h2>
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.Username, new { id = "username", placeholder = @WebCommon.Username, @class = "form-control login-username", ng_model = "registerUsername", required = "required" })             
+            </div>
+            <button type="submit" ng-disabled="registerForm.$invalid" class="btn btn-success btn-block">@WebCommon.RegisterSubmit</button>
+        </form>
+    </div>
+    
+
+</div>
+
+

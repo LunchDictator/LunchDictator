@@ -1,0 +1,26 @@
+﻿@model AccountActivateViewModel
+
+@{
+    ViewBag.Title = WebCommon.ActivatePageTitle;
+}
+
+<h2>@WebCommon.ActivatePageTitle</h2>
+
+<div class="row">
+    <div class="col-md-3 col-md-offset-3">
+        <form action="@Url.Action("Activate", "Account")" method="POST" name="activateForm">
+            @Html.HiddenFor(m => m.PasswordChangeSecret)
+            <p>@WebCommon.PleaseEnterNewPassword</p>
+            <div class="form-group">
+                <label for="password">@WebCommon.Password</label>
+                @Html.PasswordFor(m => m.Password, new { id = "password", placeholder = @WebCommon.Password, @class = "form-control", ng_model = "password", required = "required" })               
+            </div>
+            
+            <div class="form-group">
+                <label for="confirm-password">@WebCommon.ConfirmPassword</label>
+                @Html.PasswordFor(m => m.ConfirmPassword, new { id = "confirm-password", placeholder = @WebCommon.ConfirmPassword, @class = "form-control", ng_model = "confirmPassword", required = "required" })
+            </div>
+            <button type="submit" ng-disabled="activateForm.$invalid || activateForm.Password.$modelValue != activateForm.ConfirmPassword.$modelValue" class="btn btn-success btn-block">@WebCommon.ActivateSubmit</button>
+        </form>
+    </div>
+</div>

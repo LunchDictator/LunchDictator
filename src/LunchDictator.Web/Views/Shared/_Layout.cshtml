@@ -1,28 +1,32 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="ldApp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cerulean/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">                   
-                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
                 @Html.ActionLink("Lunch Dictator", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">                   
-                </ul>
+                <ul class="nav navbar-nav"></ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="navbar-form navbar-right">
+                        <a class="btn btn-default" href="@Url.Action("LogOut", "Account")">@WebCommon.Logout</a>
+                    </div>
+                }
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="container">
         @RenderBody()
         <hr />
         <footer>
@@ -32,6 +36,8 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.js"></script>
+    @Scripts.Render("~/bundles/app")
     @RenderSection("scripts", required: false)
 </body>
 </html>

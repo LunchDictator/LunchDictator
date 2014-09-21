@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LunchDictator.DataAccess.Entities
+﻿namespace LunchDictator.DataAccess.Entities
 {
+    using System;
     using System.ComponentModel.DataAnnotations;
 
     public class User : BaseEntity
@@ -14,5 +9,7 @@ namespace LunchDictator.DataAccess.Entities
         public string EmailAddress { get; set; }
 
         public string Password { get; set; }
+
+        public Guid? PasswordChangeSecret { get; set; }
     }
 }
