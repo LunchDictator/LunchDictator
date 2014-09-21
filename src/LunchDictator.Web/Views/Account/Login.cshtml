@@ -1,0 +1,18 @@
+﻿@model AccountLoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="login-form">
+    <form action="@Url.Action("LogIn", "Account")" method="POST" name="loginForm">
+        @Html.HiddenFor(m => m.ReturnUrl)
+        @Html.ValidationSummary()
+        <h2>@WebCommon.PleaseLogIn</h2>
+        <div class="form-group">
+            @Html.TextBoxFor(m => m.Username, new { id = "username", placeholder = @WebCommon.Username, @class = "form-control login-username", ng_model = "username", required = "required" })
+            @Html.PasswordFor(m => m.Password, new { id = "username", placeholder = @WebCommon.Password, @class = "form-control login-password", ng_model = "password", required = "required" })
+        </div>
+        <button type="submit" ng-disabled="loginForm.$invalid" class="btn btn-success btn-block">@WebCommon.LoginSubmit</button>
+    </form>
+</div>
