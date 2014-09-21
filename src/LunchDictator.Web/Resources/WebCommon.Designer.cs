@@ -61,6 +61,15 @@ namespace LunchDictator.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This email is already in use.
+        /// </summary>
+        public static string LoginAlreadyTaken {
+            get {
+                return ResourceManager.GetString("LoginAlreadyTaken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid username or password.
         /// </summary>
         public static string LoginFailed {
@@ -97,7 +106,34 @@ namespace LunchDictator.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Username.
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        public static string PleaseRegister {
+            get {
+                return ResourceManager.GetString("PleaseRegister", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        public static string RegisterSubmit {
+            get {
+                return ResourceManager.GetString("RegisterSubmit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please check your inbox for an activation email.
+        /// </summary>
+        public static string RegistrationSuccess {
+            get {
+                return ResourceManager.GetString("RegistrationSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email Address.
         /// </summary>
         public static string Username {
             get {
