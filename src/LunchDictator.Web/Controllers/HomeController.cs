@@ -6,9 +6,10 @@
 
     using LunchDictator.DataAccess;
     using LunchDictator.DataAccess.Entities;
+    using LunchDictator.Web.Core;
     using LunchDictator.Web.Models;
 
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
