@@ -8,8 +8,6 @@
     using System.Resources;
     using System.Text;
 
-    using LunchDictator.DataAccess;
-    using LunchDictator.DataAccess.Enums;
     using LunchDictator.Web.Resources.OrgNameParts;
 
     public static class RandomOrganisationNameProvider

@@ -4,7 +4,6 @@ namespace LunchDictator.DataAccess.Migrations
 
     using LunchDictator.DataAccess;
     using LunchDictator.DataAccess.Entities;
-    using LunchDictator.DataAccess.Migrations.Initializers;
 
     internal sealed class Configuration : DbMigrationsConfiguration<LunchContext>
     {
@@ -49,8 +48,6 @@ namespace LunchDictator.DataAccess.Migrations
                     ImageUrl = "http://www.watford.gov.uk/ccm/cms-service/stream/image/?image_id=18880016",
                     Name = "The Market"
                 });
-
-            OrganisationNamePartsInitializer.Initialize(context);
         }
     }
 }
