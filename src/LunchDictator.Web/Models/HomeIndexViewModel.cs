@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    using LunchDictator.DataAccess.Providers;
+    using LunchDictator.Web.Core;
 
     public class HomeIndexViewModel
     {
