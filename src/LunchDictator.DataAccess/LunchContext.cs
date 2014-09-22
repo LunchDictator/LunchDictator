@@ -24,7 +24,5 @@
         public IDbSet<User> Users { get; set; }
 
         public IDbSet<Organisation> Organisations { get; set; }
-
-        public IDbSet<OrganisationNamePart> OrganisationNameParts { get; set; }
     }
 }
