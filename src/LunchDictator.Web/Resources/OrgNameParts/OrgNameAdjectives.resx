@@ -120,7 +120,31 @@
   <data name="Adjective1" xml:space="preserve">
     <value>Arcadian</value>
   </data>
+  <data name="Adjective10" xml:space="preserve">
+    <value>Fabulous</value>
+  </data>
   <data name="Adjective2" xml:space="preserve">
     <value>Corpulent</value>
+  </data>
+  <data name="Adjective3" xml:space="preserve">
+    <value>Turgid</value>
+  </data>
+  <data name="Adjective4" xml:space="preserve">
+    <value>Tenacious</value>
+  </data>
+  <data name="Adjective5" xml:space="preserve">
+    <value>Petulant</value>
+  </data>
+  <data name="Adjective6" xml:space="preserve">
+    <value>Insolent</value>
+  </data>
+  <data name="Adjective7" xml:space="preserve">
+    <value>Feckless</value>
+  </data>
+  <data name="Adjective8" xml:space="preserve">
+    <value>Calamitous</value>
+  </data>
+  <data name="Adjective9" xml:space="preserve">
+    <value>Abhorrent</value>
   </data>
 </root>

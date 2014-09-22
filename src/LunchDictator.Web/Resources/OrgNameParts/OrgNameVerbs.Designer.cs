@@ -70,11 +70,83 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hugging.
+        /// </summary>
+        internal static string Verb10 {
+            get {
+                return ResourceManager.GetString("Verb10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bushwhacking.
         /// </summary>
         internal static string Verb2 {
             get {
                 return ResourceManager.GetString("Verb2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Singing.
+        /// </summary>
+        internal static string Verb3 {
+            get {
+                return ResourceManager.GetString("Verb3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prancing.
+        /// </summary>
+        internal static string Verb4 {
+            get {
+                return ResourceManager.GetString("Verb4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dancing.
+        /// </summary>
+        internal static string Verb5 {
+            get {
+                return ResourceManager.GetString("Verb5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lollygagging.
+        /// </summary>
+        internal static string Verb6 {
+            get {
+                return ResourceManager.GetString("Verb6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creeping.
+        /// </summary>
+        internal static string Verb7 {
+            get {
+                return ResourceManager.GetString("Verb7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Duelling.
+        /// </summary>
+        internal static string Verb8 {
+            get {
+                return ResourceManager.GetString("Verb8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exploding.
+        /// </summary>
+        internal static string Verb9 {
+            get {
+                return ResourceManager.GetString("Verb9", resourceCulture);
             }
         }
     }

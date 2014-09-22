@@ -70,11 +70,83 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fabulous.
+        /// </summary>
+        internal static string Adjective10 {
+            get {
+                return ResourceManager.GetString("Adjective10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Corpulent.
         /// </summary>
         internal static string Adjective2 {
             get {
                 return ResourceManager.GetString("Adjective2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Turgid.
+        /// </summary>
+        internal static string Adjective3 {
+            get {
+                return ResourceManager.GetString("Adjective3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tenacious.
+        /// </summary>
+        internal static string Adjective4 {
+            get {
+                return ResourceManager.GetString("Adjective4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Petulant.
+        /// </summary>
+        internal static string Adjective5 {
+            get {
+                return ResourceManager.GetString("Adjective5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insolent.
+        /// </summary>
+        internal static string Adjective6 {
+            get {
+                return ResourceManager.GetString("Adjective6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Feckless.
+        /// </summary>
+        internal static string Adjective7 {
+            get {
+                return ResourceManager.GetString("Adjective7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Calamitous.
+        /// </summary>
+        internal static string Adjective8 {
+            get {
+                return ResourceManager.GetString("Adjective8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abhorrent.
+        /// </summary>
+        internal static string Adjective9 {
+            get {
+                return ResourceManager.GetString("Adjective9", resourceCulture);
             }
         }
     }

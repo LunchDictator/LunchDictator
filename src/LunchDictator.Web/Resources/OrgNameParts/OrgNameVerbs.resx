@@ -120,7 +120,31 @@
   <data name="Verb1" xml:space="preserve">
     <value>Jumping</value>
   </data>
+  <data name="Verb10" xml:space="preserve">
+    <value>Hugging</value>
+  </data>
   <data name="Verb2" xml:space="preserve">
     <value>Bushwhacking</value>
+  </data>
+  <data name="Verb3" xml:space="preserve">
+    <value>Singing</value>
+  </data>
+  <data name="Verb4" xml:space="preserve">
+    <value>Prancing</value>
+  </data>
+  <data name="Verb5" xml:space="preserve">
+    <value>Dancing</value>
+  </data>
+  <data name="Verb6" xml:space="preserve">
+    <value>Lollygagging</value>
+  </data>
+  <data name="Verb7" xml:space="preserve">
+    <value>Creeping</value>
+  </data>
+  <data name="Verb8" xml:space="preserve">
+    <value>Duelling</value>
+  </data>
+  <data name="Verb9" xml:space="preserve">
+    <value>Exploding</value>
   </data>
 </root>

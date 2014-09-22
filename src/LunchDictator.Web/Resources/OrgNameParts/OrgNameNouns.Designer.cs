@@ -70,11 +70,110 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nerfherders.
+        /// </summary>
+        internal static string Noun10 {
+            get {
+                return ResourceManager.GetString("Noun10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bunnies.
+        /// </summary>
+        internal static string Noun11 {
+            get {
+                return ResourceManager.GetString("Noun11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Robots.
+        /// </summary>
+        internal static string Noun12 {
+            get {
+                return ResourceManager.GetString("Noun12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Knights Of The Round Table.
+        /// </summary>
+        internal static string Noun13 {
+            get {
+                return ResourceManager.GetString("Noun13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dragons.
         /// </summary>
         internal static string Noun2 {
             get {
                 return ResourceManager.GetString("Noun2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ninjas.
+        /// </summary>
+        internal static string Noun3 {
+            get {
+                return ResourceManager.GetString("Noun3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Girls.
+        /// </summary>
+        internal static string Noun4 {
+            get {
+                return ResourceManager.GetString("Noun4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boys.
+        /// </summary>
+        internal static string Noun5 {
+            get {
+                return ResourceManager.GetString("Noun5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dancers.
+        /// </summary>
+        internal static string Noun6 {
+            get {
+                return ResourceManager.GetString("Noun6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rainbows.
+        /// </summary>
+        internal static string Noun7 {
+            get {
+                return ResourceManager.GetString("Noun7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unicorns.
+        /// </summary>
+        internal static string Noun8 {
+            get {
+                return ResourceManager.GetString("Noun8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Llamas.
+        /// </summary>
+        internal static string Noun9 {
+            get {
+                return ResourceManager.GetString("Noun9", resourceCulture);
             }
         }
     }

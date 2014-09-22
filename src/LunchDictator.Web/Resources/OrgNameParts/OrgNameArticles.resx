@@ -123,4 +123,22 @@
   <data name="Article2" xml:space="preserve">
     <value>These</value>
   </data>
+  <data name="Article3" xml:space="preserve">
+    <value>A Few</value>
+  </data>
+  <data name="Article4" xml:space="preserve">
+    <value>Half A Dozen</value>
+  </data>
+  <data name="Article5" xml:space="preserve">
+    <value>Some</value>
+  </data>
+  <data name="Article6" xml:space="preserve">
+    <value>A Hatful Of</value>
+  </data>
+  <data name="Article7" xml:space="preserve">
+    <value>A Worrisome Number Of</value>
+  </data>
+  <data name="Article8" xml:space="preserve">
+    <value>Thousands Of</value>
+  </data>
 </root>

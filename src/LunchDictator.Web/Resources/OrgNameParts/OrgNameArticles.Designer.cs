@@ -77,5 +77,59 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
                 return ResourceManager.GetString("Article2", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Few.
+        /// </summary>
+        internal static string Article3 {
+            get {
+                return ResourceManager.GetString("Article3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Half A Dozen.
+        /// </summary>
+        internal static string Article4 {
+            get {
+                return ResourceManager.GetString("Article4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Some.
+        /// </summary>
+        internal static string Article5 {
+            get {
+                return ResourceManager.GetString("Article5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Hatful Of.
+        /// </summary>
+        internal static string Article6 {
+            get {
+                return ResourceManager.GetString("Article6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Worrisome Number Of.
+        /// </summary>
+        internal static string Article7 {
+            get {
+                return ResourceManager.GetString("Article7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thousands Of.
+        /// </summary>
+        internal static string Article8 {
+            get {
+                return ResourceManager.GetString("Article8", resourceCulture);
+            }
+        }
     }
 }

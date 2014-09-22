@@ -70,11 +70,83 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Silently.
+        /// </summary>
+        internal static string Adverb10 {
+            get {
+                return ResourceManager.GetString("Adverb10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Blindly.
         /// </summary>
         internal static string Adverb2 {
             get {
                 return ResourceManager.GetString("Adverb2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cheerfully.
+        /// </summary>
+        internal static string Adverb3 {
+            get {
+                return ResourceManager.GetString("Adverb3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Foolishly.
+        /// </summary>
+        internal static string Adverb4 {
+            get {
+                return ResourceManager.GetString("Adverb4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gracefully.
+        /// </summary>
+        internal static string Adverb5 {
+            get {
+                return ResourceManager.GetString("Adverb5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camply.
+        /// </summary>
+        internal static string Adverb6 {
+            get {
+                return ResourceManager.GetString("Adverb6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Madly.
+        /// </summary>
+        internal static string Adverb7 {
+            get {
+                return ResourceManager.GetString("Adverb7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merrily.
+        /// </summary>
+        internal static string Adverb8 {
+            get {
+                return ResourceManager.GetString("Adverb8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Powerfully.
+        /// </summary>
+        internal static string Adverb9 {
+            get {
+                return ResourceManager.GetString("Adverb9", resourceCulture);
             }
         }
     }
