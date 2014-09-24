@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LunchDictator.Web.Resources.OrgNameParts {
+namespace LunchDictator.Web.Resources.DictatorshipNameParts {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class OrgNameArticles {
+    internal class DictatorshipNameStateOwnership {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OrgNameArticles() {
+        internal DictatorshipNameStateOwnership() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.OrgNameParts.OrgNameArticles", typeof(OrgNameArticles).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.DictatorshipNameParts.DictatorshipNameStateOwnership", typeof(DictatorshipNameStateOwnership).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,74 +61,38 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The.
+        ///   Looks up a localized string similar to People&apos;s.
         /// </summary>
-        internal static string Article1 {
+        internal static string Ownership1 {
             get {
-                return ResourceManager.GetString("Article1", resourceCulture);
+                return ResourceManager.GetString("Ownership1", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to These.
+        ///   Looks up a localized string similar to Elder&apos;s.
         /// </summary>
-        internal static string Article2 {
+        internal static string Ownership2 {
             get {
-                return ResourceManager.GetString("Article2", resourceCulture);
+                return ResourceManager.GetString("Ownership2", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A Few.
+        ///   Looks up a localized string similar to Women&apos;s.
         /// </summary>
-        internal static string Article3 {
+        internal static string Ownership3 {
             get {
-                return ResourceManager.GetString("Article3", resourceCulture);
+                return ResourceManager.GetString("Ownership3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Half A Dozen.
+        ///   Looks up a localized string similar to Children&apos;s.
         /// </summary>
-        internal static string Article4 {
+        internal static string Ownership4 {
             get {
-                return ResourceManager.GetString("Article4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Some.
-        /// </summary>
-        internal static string Article5 {
-            get {
-                return ResourceManager.GetString("Article5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to A Hatful Of.
-        /// </summary>
-        internal static string Article6 {
-            get {
-                return ResourceManager.GetString("Article6", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to A Worrisome Number Of.
-        /// </summary>
-        internal static string Article7 {
-            get {
-                return ResourceManager.GetString("Article7", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Thousands Of.
-        /// </summary>
-        internal static string Article8 {
-            get {
-                return ResourceManager.GetString("Article8", resourceCulture);
+                return ResourceManager.GetString("Ownership4", resourceCulture);
             }
         }
     }

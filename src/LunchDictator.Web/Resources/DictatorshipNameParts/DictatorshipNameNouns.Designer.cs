@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LunchDictator.Web.Resources.OrgNameParts {
+namespace LunchDictator.Web.Resources.DictatorshipNameParts {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class OrgNameNouns {
+    internal class DictatorshipNameNouns {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OrgNameNouns() {
+        internal DictatorshipNameNouns() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.OrgNameParts.OrgNameNouns", typeof(OrgNameNouns).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.DictatorshipNameParts.DictatorshipNameNouns", typeof(DictatorshipNameNouns).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gnomes.
+        ///   Looks up a localized string similar to Gnome.
         /// </summary>
         internal static string Noun1 {
             get {
@@ -70,7 +70,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nerfherders.
+        ///   Looks up a localized string similar to Nerfherder.
         /// </summary>
         internal static string Noun10 {
             get {
@@ -79,7 +79,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bunnies.
+        ///   Looks up a localized string similar to Bunny.
         /// </summary>
         internal static string Noun11 {
             get {
@@ -88,7 +88,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Robots.
+        ///   Looks up a localized string similar to Robot.
         /// </summary>
         internal static string Noun12 {
             get {
@@ -97,7 +97,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Knights Of The Round Table.
+        ///   Looks up a localized string similar to Knight.
         /// </summary>
         internal static string Noun13 {
             get {
@@ -106,7 +106,61 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragons.
+        ///   Looks up a localized string similar to Cookie Monster.
+        /// </summary>
+        internal static string Noun14 {
+            get {
+                return ResourceManager.GetString("Noun14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Telephone.
+        /// </summary>
+        internal static string Noun15 {
+            get {
+                return ResourceManager.GetString("Noun15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hedgehog.
+        /// </summary>
+        internal static string Noun16 {
+            get {
+                return ResourceManager.GetString("Noun16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supervillain.
+        /// </summary>
+        internal static string Noun17 {
+            get {
+                return ResourceManager.GetString("Noun17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Superhero.
+        /// </summary>
+        internal static string Noun18 {
+            get {
+                return ResourceManager.GetString("Noun18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zombie.
+        /// </summary>
+        internal static string Noun19 {
+            get {
+                return ResourceManager.GetString("Noun19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dragon.
         /// </summary>
         internal static string Noun2 {
             get {
@@ -115,7 +169,16 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ninjas.
+        ///   Looks up a localized string similar to Mushroom.
+        /// </summary>
+        internal static string Noun20 {
+            get {
+                return ResourceManager.GetString("Noun20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ninja.
         /// </summary>
         internal static string Noun3 {
             get {
@@ -124,7 +187,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Girls.
+        ///   Looks up a localized string similar to Girl.
         /// </summary>
         internal static string Noun4 {
             get {
@@ -133,7 +196,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Boys.
+        ///   Looks up a localized string similar to Boy.
         /// </summary>
         internal static string Noun5 {
             get {
@@ -142,7 +205,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dancers.
+        ///   Looks up a localized string similar to Dancer.
         /// </summary>
         internal static string Noun6 {
             get {
@@ -151,7 +214,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rainbows.
+        ///   Looks up a localized string similar to Rainbow.
         /// </summary>
         internal static string Noun7 {
             get {
@@ -160,7 +223,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unicorns.
+        ///   Looks up a localized string similar to Unicorn.
         /// </summary>
         internal static string Noun8 {
             get {
@@ -169,7 +232,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Llamas.
+        ///   Looks up a localized string similar to Llama.
         /// </summary>
         internal static string Noun9 {
             get {

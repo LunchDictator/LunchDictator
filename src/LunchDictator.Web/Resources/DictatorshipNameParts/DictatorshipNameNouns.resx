@@ -117,28 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Article1" xml:space="preserve">
-    <value>The</value>
+  <data name="Noun1" xml:space="preserve">
+    <value>Gnome</value>
   </data>
-  <data name="Article2" xml:space="preserve">
-    <value>These</value>
+  <data name="Noun10" xml:space="preserve">
+    <value>Nerfherder</value>
   </data>
-  <data name="Article3" xml:space="preserve">
-    <value>A Few</value>
+  <data name="Noun11" xml:space="preserve">
+    <value>Bunny</value>
   </data>
-  <data name="Article4" xml:space="preserve">
-    <value>Half A Dozen</value>
+  <data name="Noun12" xml:space="preserve">
+    <value>Robot</value>
   </data>
-  <data name="Article5" xml:space="preserve">
-    <value>Some</value>
+  <data name="Noun13" xml:space="preserve">
+    <value>Knight</value>
   </data>
-  <data name="Article6" xml:space="preserve">
-    <value>A Hatful Of</value>
+  <data name="Noun14" xml:space="preserve">
+    <value>Cookie Monster</value>
   </data>
-  <data name="Article7" xml:space="preserve">
-    <value>A Worrisome Number Of</value>
+  <data name="Noun15" xml:space="preserve">
+    <value>Telephone</value>
   </data>
-  <data name="Article8" xml:space="preserve">
-    <value>Thousands Of</value>
+  <data name="Noun16" xml:space="preserve">
+    <value>Hedgehog</value>
+  </data>
+  <data name="Noun17" xml:space="preserve">
+    <value>Supervillain</value>
+  </data>
+  <data name="Noun18" xml:space="preserve">
+    <value>Superhero</value>
+  </data>
+  <data name="Noun19" xml:space="preserve">
+    <value>Zombie</value>
+  </data>
+  <data name="Noun2" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="Noun20" xml:space="preserve">
+    <value>Mushroom</value>
+  </data>
+  <data name="Noun3" xml:space="preserve">
+    <value>Ninja</value>
+  </data>
+  <data name="Noun4" xml:space="preserve">
+    <value>Girl</value>
+  </data>
+  <data name="Noun5" xml:space="preserve">
+    <value>Boy</value>
+  </data>
+  <data name="Noun6" xml:space="preserve">
+    <value>Dancer</value>
+  </data>
+  <data name="Noun7" xml:space="preserve">
+    <value>Rainbow</value>
+  </data>
+  <data name="Noun8" xml:space="preserve">
+    <value>Unicorn</value>
+  </data>
+  <data name="Noun9" xml:space="preserve">
+    <value>Llama</value>
   </data>
 </root>

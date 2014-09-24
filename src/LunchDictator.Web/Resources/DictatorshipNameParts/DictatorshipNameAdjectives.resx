@@ -123,11 +123,83 @@
   <data name="Adjective10" xml:space="preserve">
     <value>Fabulous</value>
   </data>
+  <data name="Adjective11" xml:space="preserve">
+    <value>Luminous</value>
+  </data>
+  <data name="Adjective12" xml:space="preserve">
+    <value>Neon</value>
+  </data>
+  <data name="Adjective13" xml:space="preserve">
+    <value>Perfect</value>
+  </data>
+  <data name="Adjective14" xml:space="preserve">
+    <value>Adorable</value>
+  </data>
+  <data name="Adjective15" xml:space="preserve">
+    <value>Gargantuan</value>
+  </data>
+  <data name="Adjective16" xml:space="preserve">
+    <value>Miniscule</value>
+  </data>
+  <data name="Adjective17" xml:space="preserve">
+    <value>Elegant</value>
+  </data>
+  <data name="Adjective18" xml:space="preserve">
+    <value>Magnificent</value>
+  </data>
+  <data name="Adjective19" xml:space="preserve">
+    <value>Ugly</value>
+  </data>
   <data name="Adjective2" xml:space="preserve">
     <value>Corpulent</value>
   </data>
+  <data name="Adjective20" xml:space="preserve">
+    <value>Mysterious</value>
+  </data>
+  <data name="Adjective21" xml:space="preserve">
+    <value>Obnoxious</value>
+  </data>
+  <data name="Adjective22" xml:space="preserve">
+    <value>Repulsive</value>
+  </data>
+  <data name="Adjective23" xml:space="preserve">
+    <value>Happy</value>
+  </data>
+  <data name="Adjective24" xml:space="preserve">
+    <value>Obedient</value>
+  </data>
+  <data name="Adjective25" xml:space="preserve">
+    <value>Witty</value>
+  </data>
+  <data name="Adjective26" xml:space="preserve">
+    <value>Tiny</value>
+  </data>
+  <data name="Adjective27" xml:space="preserve">
+    <value>Huge</value>
+  </data>
+  <data name="Adjective28" xml:space="preserve">
+    <value>Skinny</value>
+  </data>
+  <data name="Adjective29" xml:space="preserve">
+    <value>Whispering</value>
+  </data>
   <data name="Adjective3" xml:space="preserve">
     <value>Turgid</value>
+  </data>
+  <data name="Adjective30" xml:space="preserve">
+    <value>Ancient</value>
+  </data>
+  <data name="Adjective31" xml:space="preserve">
+    <value>Modern</value>
+  </data>
+  <data name="Adjective32" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Adjective33" xml:space="preserve">
+    <value>Democratic</value>
+  </data>
+  <data name="Adjective34" xml:space="preserve">
+    <value>Fundamentalist</value>
   </data>
   <data name="Adjective4" xml:space="preserve">
     <value>Tenacious</value>

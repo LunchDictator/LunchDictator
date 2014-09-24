@@ -125,7 +125,7 @@
     <Compile Include="Core\CurrentUrlHelper.cs" />
     <Compile Include="Core\EmailSender.cs" />
     <Compile Include="Core\HashHelper.cs" />
-    <Compile Include="Core\RandomOrganisationNameProvider.cs" />
+    <Compile Include="Core\RandomDictatorshipNameProvider.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -134,30 +134,40 @@
     <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Models\PlaceViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\OrgNameParts\OrgNameAdjectives.Designer.cs">
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNamePluralNouns.Designer.cs">
+      <DependentUpon>DictatorshipNamePluralNouns.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OrgNameAdjectives.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\OrgNameParts\OrgNameAdverbs.Designer.cs">
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameStateOwnership.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OrgNameAdverbs.resx</DependentUpon>
+      <DependentUpon>DictatorshipNameStateOwnership.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\OrgNameParts\OrgNameArticles.Designer.cs">
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameAdjectives.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OrgNameArticles.resx</DependentUpon>
+      <DependentUpon>DictatorshipNameAdjectives.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\OrgNameParts\OrgNameNouns.Designer.cs">
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameCommon.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OrgNameNouns.resx</DependentUpon>
+      <DependentUpon>DictatorshipNameCommon.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\OrgNameParts\OrgNameVerbs.Designer.cs">
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameNouns.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OrgNameVerbs.resx</DependentUpon>
+      <DependentUpon>DictatorshipNameNouns.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameStateType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DictatorshipNameStateType.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DictatorshipNameParts\DictatorshipNameVerbs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DictatorshipNameVerbs.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\WebCommon.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -224,25 +234,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\OrgNameParts\OrgNameAdjectives.resx">
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNamePluralNouns.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>OrgNameAdjectives.Designer.cs</LastGenOutput>
+      <LastGenOutput>DictatorshipNamePluralNouns.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\OrgNameParts\OrgNameAdverbs.resx">
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameStateOwnership.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>OrgNameAdverbs.Designer.cs</LastGenOutput>
+      <LastGenOutput>DictatorshipNameStateOwnership.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\OrgNameParts\OrgNameArticles.resx">
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameAdjectives.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>OrgNameArticles.Designer.cs</LastGenOutput>
+      <LastGenOutput>DictatorshipNameAdjectives.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\OrgNameParts\OrgNameNouns.resx">
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameCommon.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>OrgNameNouns.Designer.cs</LastGenOutput>
+      <LastGenOutput>DictatorshipNameCommon.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\OrgNameParts\OrgNameVerbs.resx">
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameNouns.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>OrgNameVerbs.Designer.cs</LastGenOutput>
+      <LastGenOutput>DictatorshipNameNouns.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameStateType.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DictatorshipNameStateType.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DictatorshipNameParts\DictatorshipNameVerbs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DictatorshipNameVerbs.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\WebCommon.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

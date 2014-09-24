@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LunchDictator.Web.Resources.OrgNameParts {
+namespace LunchDictator.Web.Resources.DictatorshipNameParts {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class OrgNameVerbs {
+    internal class DictatorshipNameVerbs {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OrgNameVerbs() {
+        internal DictatorshipNameVerbs() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.OrgNameParts.OrgNameVerbs", typeof(OrgNameVerbs).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.DictatorshipNameParts.DictatorshipNameVerbs", typeof(DictatorshipNameVerbs).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Jumping.
+        ///   Looks up a localized string similar to Riders.
         /// </summary>
         internal static string Verb1 {
             get {
@@ -70,7 +70,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hugging.
+        ///   Looks up a localized string similar to Huggers.
         /// </summary>
         internal static string Verb10 {
             get {
@@ -79,7 +79,88 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bushwhacking.
+        ///   Looks up a localized string similar to Trainers.
+        /// </summary>
+        internal static string Verb11 {
+            get {
+                return ResourceManager.GetString("Verb11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Torturers.
+        /// </summary>
+        internal static string Verb12 {
+            get {
+                return ResourceManager.GetString("Verb12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lickers.
+        /// </summary>
+        internal static string Verb13 {
+            get {
+                return ResourceManager.GetString("Verb13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bouncers.
+        /// </summary>
+        internal static string Verb14 {
+            get {
+                return ResourceManager.GetString("Verb14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Washers.
+        /// </summary>
+        internal static string Verb15 {
+            get {
+                return ResourceManager.GetString("Verb15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eaters.
+        /// </summary>
+        internal static string Verb16 {
+            get {
+                return ResourceManager.GetString("Verb16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shavers.
+        /// </summary>
+        internal static string Verb17 {
+            get {
+                return ResourceManager.GetString("Verb17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scratchers.
+        /// </summary>
+        internal static string Verb18 {
+            get {
+                return ResourceManager.GetString("Verb18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lecturers.
+        /// </summary>
+        internal static string Verb19 {
+            get {
+                return ResourceManager.GetString("Verb19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bushwhackers.
         /// </summary>
         internal static string Verb2 {
             get {
@@ -88,7 +169,16 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Singing.
+        ///   Looks up a localized string similar to Conductors.
+        /// </summary>
+        internal static string Verb20 {
+            get {
+                return ResourceManager.GetString("Verb20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Singers.
         /// </summary>
         internal static string Verb3 {
             get {
@@ -97,7 +187,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prancing.
+        ///   Looks up a localized string similar to Prancers.
         /// </summary>
         internal static string Verb4 {
             get {
@@ -106,7 +196,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dancing.
+        ///   Looks up a localized string similar to Dancers.
         /// </summary>
         internal static string Verb5 {
             get {
@@ -115,7 +205,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Lollygagging.
+        ///   Looks up a localized string similar to Throwers.
         /// </summary>
         internal static string Verb6 {
             get {
@@ -124,7 +214,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Creeping.
+        ///   Looks up a localized string similar to Operators.
         /// </summary>
         internal static string Verb7 {
             get {
@@ -133,7 +223,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Duelling.
+        ///   Looks up a localized string similar to Duellers.
         /// </summary>
         internal static string Verb8 {
             get {
@@ -142,7 +232,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exploding.
+        ///   Looks up a localized string similar to Exploders.
         /// </summary>
         internal static string Verb9 {
             get {
