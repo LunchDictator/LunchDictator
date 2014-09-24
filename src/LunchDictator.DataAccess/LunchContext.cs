@@ -23,6 +23,18 @@
 
         public IDbSet<User> Users { get; set; }
 
-        public IDbSet<Organisation> Organisations { get; set; }
+        public IDbSet<Dictatorship> Dictatorships { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Dictatorship>().HasMany(d => d.Users).WithMany(u => u.Dictatorships).Map(
+                m =>
+                    {
+                        m.ToTable("DictatorshipUser");
+                        m.MapLeftKey("Dictatorship_Id");
+                        m.MapRightKey("User_Id");
+                    });
+        }
     }
 }
