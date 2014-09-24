@@ -117,43 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Noun1" xml:space="preserve">
-    <value>Gnomes</value>
+  <data name="Ownership1" xml:space="preserve">
+    <value>People's</value>
   </data>
-  <data name="Noun10" xml:space="preserve">
-    <value>Nerfherders</value>
+  <data name="Ownership2" xml:space="preserve">
+    <value>Elder's</value>
   </data>
-  <data name="Noun11" xml:space="preserve">
-    <value>Bunnies</value>
+  <data name="Ownership3" xml:space="preserve">
+    <value>Women's</value>
   </data>
-  <data name="Noun12" xml:space="preserve">
-    <value>Robots</value>
-  </data>
-  <data name="Noun13" xml:space="preserve">
-    <value>Knights Of The Round Table</value>
-  </data>
-  <data name="Noun2" xml:space="preserve">
-    <value>Dragons</value>
-  </data>
-  <data name="Noun3" xml:space="preserve">
-    <value>Ninjas</value>
-  </data>
-  <data name="Noun4" xml:space="preserve">
-    <value>Girls</value>
-  </data>
-  <data name="Noun5" xml:space="preserve">
-    <value>Boys</value>
-  </data>
-  <data name="Noun6" xml:space="preserve">
-    <value>Dancers</value>
-  </data>
-  <data name="Noun7" xml:space="preserve">
-    <value>Rainbows</value>
-  </data>
-  <data name="Noun8" xml:space="preserve">
-    <value>Unicorns</value>
-  </data>
-  <data name="Noun9" xml:space="preserve">
-    <value>Llamas</value>
+  <data name="Ownership4" xml:space="preserve">
+    <value>Children's</value>
   </data>
 </root>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LunchDictator.Web.Resources.OrgNameParts {
+namespace LunchDictator.Web.Resources.DictatorshipNameParts {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class OrgNameAdjectives {
+    internal class DictatorshipNameStateType {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OrgNameAdjectives() {
+        internal DictatorshipNameStateType() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.OrgNameParts.OrgNameAdjectives", typeof(OrgNameAdjectives).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LunchDictator.Web.Resources.DictatorshipNameParts.DictatorshipNameStateType", typeof(DictatorshipNameStateType).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,92 +61,92 @@ namespace LunchDictator.Web.Resources.OrgNameParts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Arcadian.
+        ///   Looks up a localized string similar to Republic.
         /// </summary>
-        internal static string Adjective1 {
+        internal static string StateType1 {
             get {
-                return ResourceManager.GetString("Adjective1", resourceCulture);
+                return ResourceManager.GetString("StateType1", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Fabulous.
+        ///   Looks up a localized string similar to Dictatorship.
         /// </summary>
-        internal static string Adjective10 {
+        internal static string StateType10 {
             get {
-                return ResourceManager.GetString("Adjective10", resourceCulture);
+                return ResourceManager.GetString("StateType10", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Corpulent.
+        ///   Looks up a localized string similar to Nation.
         /// </summary>
-        internal static string Adjective2 {
+        internal static string StateType2 {
             get {
-                return ResourceManager.GetString("Adjective2", resourceCulture);
+                return ResourceManager.GetString("StateType2", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Turgid.
+        ///   Looks up a localized string similar to State.
         /// </summary>
-        internal static string Adjective3 {
+        internal static string StateType3 {
             get {
-                return ResourceManager.GetString("Adjective3", resourceCulture);
+                return ResourceManager.GetString("StateType3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tenacious.
+        ///   Looks up a localized string similar to Principality.
         /// </summary>
-        internal static string Adjective4 {
+        internal static string StateType4 {
             get {
-                return ResourceManager.GetString("Adjective4", resourceCulture);
+                return ResourceManager.GetString("StateType4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Petulant.
+        ///   Looks up a localized string similar to Protectorate.
         /// </summary>
-        internal static string Adjective5 {
+        internal static string StateType5 {
             get {
-                return ResourceManager.GetString("Adjective5", resourceCulture);
+                return ResourceManager.GetString("StateType5", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Insolent.
+        ///   Looks up a localized string similar to Colony.
         /// </summary>
-        internal static string Adjective6 {
+        internal static string StateType6 {
             get {
-                return ResourceManager.GetString("Adjective6", resourceCulture);
+                return ResourceManager.GetString("StateType6", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Feckless.
+        ///   Looks up a localized string similar to Federation.
         /// </summary>
-        internal static string Adjective7 {
+        internal static string StateType7 {
             get {
-                return ResourceManager.GetString("Adjective7", resourceCulture);
+                return ResourceManager.GetString("StateType7", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Calamitous.
+        ///   Looks up a localized string similar to Territory.
         /// </summary>
-        internal static string Adjective8 {
+        internal static string StateType8 {
             get {
-                return ResourceManager.GetString("Adjective8", resourceCulture);
+                return ResourceManager.GetString("StateType8", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Abhorrent.
+        ///   Looks up a localized string similar to Empire.
         /// </summary>
-        internal static string Adjective9 {
+        internal static string StateType9 {
             get {
-                return ResourceManager.GetString("Adjective9", resourceCulture);
+                return ResourceManager.GetString("StateType9", resourceCulture);
             }
         }
     }

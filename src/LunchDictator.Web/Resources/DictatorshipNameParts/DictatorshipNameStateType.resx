@@ -117,34 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Adverb1" xml:space="preserve">
-    <value>Angrily</value>
+  <data name="StateType1" xml:space="preserve">
+    <value>Republic</value>
   </data>
-  <data name="Adverb10" xml:space="preserve">
-    <value>Silently</value>
+  <data name="StateType10" xml:space="preserve">
+    <value>Dictatorship</value>
   </data>
-  <data name="Adverb2" xml:space="preserve">
-    <value>Blindly</value>
+  <data name="StateType2" xml:space="preserve">
+    <value>Nation</value>
   </data>
-  <data name="Adverb3" xml:space="preserve">
-    <value>Cheerfully</value>
+  <data name="StateType3" xml:space="preserve">
+    <value>State</value>
   </data>
-  <data name="Adverb4" xml:space="preserve">
-    <value>Foolishly</value>
+  <data name="StateType4" xml:space="preserve">
+    <value>Principality</value>
   </data>
-  <data name="Adverb5" xml:space="preserve">
-    <value>Gracefully</value>
+  <data name="StateType5" xml:space="preserve">
+    <value>Protectorate</value>
   </data>
-  <data name="Adverb6" xml:space="preserve">
-    <value>Camply</value>
+  <data name="StateType6" xml:space="preserve">
+    <value>Colony</value>
   </data>
-  <data name="Adverb7" xml:space="preserve">
-    <value>Madly</value>
+  <data name="StateType7" xml:space="preserve">
+    <value>Federation</value>
   </data>
-  <data name="Adverb8" xml:space="preserve">
-    <value>Merrily</value>
+  <data name="StateType8" xml:space="preserve">
+    <value>Territory</value>
   </data>
-  <data name="Adverb9" xml:space="preserve">
-    <value>Powerfully</value>
+  <data name="StateType9" xml:space="preserve">
+    <value>Empire</value>
   </data>
 </root>

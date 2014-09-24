@@ -10,11 +10,11 @@
 
         public List<PlaceViewModel> Places { get; set; }
 
-        public string OrganisationName
+        public string DictatorshipName
         {
             get
             {
-                return RandomOrganisationNameProvider.GetRandomOrganisationName();
+                return RandomDictatorshipNameProvider.GetRandomDictatorshipName();
             }
         }
     }
