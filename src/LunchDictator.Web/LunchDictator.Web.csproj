@@ -119,6 +119,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DictatorshipController.cs" />
     <Compile Include="Core\BaseController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -131,6 +132,8 @@
     </Compile>
     <Compile Include="Models\AccountActivateViewModel.cs" />
     <Compile Include="Models\AccountLoginOrRegisterViewModel.cs" />
+    <Compile Include="Models\DictatorshipIndexViewModel.cs" />
+    <Compile Include="Models\DictatorshipViewModel.cs" />
     <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Models\PlaceViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -217,6 +220,7 @@
     <Content Include="Views\Account\LoginOrRegister.cshtml" />
     <Content Include="Views\Account\Activate.cshtml" />
     <Content Include="Views\Account\ActivateSecretInvalid.cshtml" />
+    <Content Include="Views\Dictatorship\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

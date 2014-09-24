@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\BaseEntity.cs" />
-    <Compile Include="Entities\Organisation.cs" />
+    <Compile Include="Entities\Dictatorship.cs" />
     <Compile Include="Entities\Place.cs" />
     <Compile Include="Entities\PlaceSelection.cs" />
     <Compile Include="Entities\User.cs" />
@@ -79,6 +79,10 @@
     <Compile Include="Migrations\201409221924598_RemoveOrgNameParts.Designer.cs">
       <DependentUpon>201409221924598_RemoveOrgNameParts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201409242004423_OrgToDictatorshipPlusUserMembership.cs" />
+    <Compile Include="Migrations\201409242004423_OrgToDictatorshipPlusUserMembership.Designer.cs">
+      <DependentUpon>201409242004423_OrgToDictatorshipPlusUserMembership.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409221924598_RemoveOrgNameParts.resx">
       <DependentUpon>201409221924598_RemoveOrgNameParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409242004423_OrgToDictatorshipPlusUserMembership.resx">
+      <DependentUpon>201409242004423_OrgToDictatorshipPlusUserMembership.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
