@@ -165,6 +165,12 @@
   <data name="RegistrationSuccess" xml:space="preserve">
     <value>Please check your inbox for an activation email</value>
   </data>
+  <data name="UserHasNoDictatorshipsHeading" xml:space="preserve">
+    <value>No dictatorships found</value>
+  </data>
+  <data name="UserHasNoDictatorshipsText" xml:space="preserve">
+    <value>Comrade! You must start or join a dictatorship before the glorious dictator can free you from the burden of choice.</value>
+  </data>
   <data name="Username" xml:space="preserve">
     <value>Email Address</value>
   </data>
