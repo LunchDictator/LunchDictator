@@ -117,61 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ActivatePageTitle" xml:space="preserve">
-    <value>Please activate your account</value>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
   </data>
-  <data name="ActivateSecretInvalidDescription" xml:space="preserve">
-    <value>The activation link has expired</value>
-  </data>
-  <data name="ActivateSecretInvalidPageTitle" xml:space="preserve">
-    <value>Activation Expired</value>
-  </data>
-  <data name="ActivateSubmit" xml:space="preserve">
-    <value>Activate</value>
-  </data>
-  <data name="ActivationEmailSubject" xml:space="preserve">
-    <value>Activate your account</value>
-  </data>
-  <data name="ConfirmPassword" xml:space="preserve">
-    <value>Confirm Password</value>
-  </data>
-  <data name="LoginAlreadyTaken" xml:space="preserve">
-    <value>This email is already in use</value>
-  </data>
-  <data name="LoginFailed" xml:space="preserve">
-    <value>Invalid username or password</value>
-  </data>
-  <data name="LoginSubmit" xml:space="preserve">
-    <value>Login</value>
-  </data>
-  <data name="Logout" xml:space="preserve">
-    <value>Logout</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="PleaseEnterNewPassword" xml:space="preserve">
-    <value>Please enter your new password and confirm</value>
-  </data>
-  <data name="PleaseLogIn" xml:space="preserve">
-    <value>Please log in</value>
-  </data>
-  <data name="PleaseRegister" xml:space="preserve">
-    <value>Register</value>
-  </data>
-  <data name="RegisterSubmit" xml:space="preserve">
-    <value>Register</value>
-  </data>
-  <data name="RegistrationSuccess" xml:space="preserve">
-    <value>Please check your inbox for an activation email</value>
-  </data>
-  <data name="UserHasNoDictatorshipsHeading" xml:space="preserve">
-    <value>No dictatorships found</value>
-  </data>
-  <data name="UserHasNoDictatorshipsText" xml:space="preserve">
-    <value>Comrade! You must start or join a dictatorship before the glorious dictator can free you from the burden of choice.</value>
-  </data>
-  <data name="Username" xml:space="preserve">
-    <value>Email Address</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

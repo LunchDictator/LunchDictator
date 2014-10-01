@@ -18,5 +18,7 @@ namespace LunchDictator.DataAccess.Entities
         public string ImageUrl { get; set; }
 
         public virtual ICollection<User> Users { get; set; }
+
+        public virtual ICollection<Place> Places { get; set; }
     }
 }

@@ -134,6 +134,7 @@
     <Compile Include="Models\AccountLoginOrRegisterViewModel.cs" />
     <Compile Include="Models\DictatorshipIndexViewModel.cs" />
     <Compile Include="Models\DictatorshipViewModel.cs" />
+    <Compile Include="Models\HomeIndexDictatorshipViewModel.cs" />
     <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Models\PlaceViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

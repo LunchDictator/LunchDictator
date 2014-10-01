@@ -1,6 +1,7 @@
 ﻿namespace LunchDictator.Web.Controllers
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Web.Mvc;
 
@@ -11,33 +12,44 @@
 
     public class HomeController : BaseController
     {
+        [Authorize]
         public ActionResult Index()
         {
             using (var ctx = new LunchContext())
             {
-                var places = ctx.Places.ToList();
-                var model = new HomeIndexViewModel
-                {
-                    Places =
-                        places.Select(p => new PlaceViewModel { ImageUrl = p.ImageUrl, Name = p.Name, Id = p.Id })
-                            .ToList()
-                };
-
                 var today = DateTime.Now.Date;
-                var selection = ctx.PlaceSelections.SingleOrDefault(s => s.Date == today);
+                var user = ctx.Users.SingleOrDefault(u => u.EmailAddress == User.Identity.Name);
 
-                if (selection == null)
+                var model = new HomeIndexViewModel { DictatorshipViewModels = new List<HomeIndexDictatorshipViewModel>() };
+
+                foreach (var dictatorship in user.Dictatorships)
                 {
-                    var rand = new Random();
-                    selection = new PlaceSelection { Date = today, Place = places[rand.Next(places.Count)] };
-                    ctx.PlaceSelections.Add(selection);
+                    var places = ctx.Places.ToList();
+                    var dictatorshipModel = new HomeIndexDictatorshipViewModel()
+                    {
+                        Places =
+                            places.Where(p => p.Dictatorship.Id == dictatorship.Id).Select(p => new PlaceViewModel { ImageUrl = p.ImageUrl, Name = p.Name, Id = p.Id })
+                                .ToList()
+                    };
 
-                    ctx.SaveChanges();
+                    var selection = ctx.PlaceSelections.SingleOrDefault(s => s.Date == today && s.Place.Dictatorship.Id == dictatorship.Id);
+
+                    if (selection == null)
+                    {
+                        var rand = new Random();
+                        selection = new PlaceSelection { Date = today, Place = places[rand.Next(places.Count)] };
+                        ctx.PlaceSelections.Add(selection);
+
+                        ctx.SaveChanges();
+                    }
+
+
+                    var selectedPlace = dictatorshipModel.Places.Single(p => p.Id == selection.Place.Id);
+                    selectedPlace.IsSelected = true;
+                    dictatorshipModel.SelectedPlace = selectedPlace.Name;
+
+                    model.DictatorshipViewModels.Add(dictatorshipModel);
                 }
-
-                var selectedPlace = model.Places.Single(p => p.Id == selection.Place.Id);
-                selectedPlace.IsSelected = true;
-                model.SelectedPlace = selectedPlace.Name;
 
                 return this.View(model);
             }

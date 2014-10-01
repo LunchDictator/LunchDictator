@@ -83,6 +83,14 @@
     <Compile Include="Migrations\201409242004423_OrgToDictatorshipPlusUserMembership.Designer.cs">
       <DependentUpon>201409242004423_OrgToDictatorshipPlusUserMembership.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201410011841259_AddPlacesToDictatorship.cs" />
+    <Compile Include="Migrations\201410011841259_AddPlacesToDictatorship.Designer.cs">
+      <DependentUpon>201410011841259_AddPlacesToDictatorship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410011850375_RemoveUnattachedPlaces.cs" />
+    <Compile Include="Migrations\201410011850375_RemoveUnattachedPlaces.Designer.cs">
+      <DependentUpon>201410011850375_RemoveUnattachedPlaces.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -107,6 +115,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409242004423_OrgToDictatorshipPlusUserMembership.resx">
       <DependentUpon>201409242004423_OrgToDictatorshipPlusUserMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410011841259_AddPlacesToDictatorship.resx">
+      <DependentUpon>201410011841259_AddPlacesToDictatorship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410011850375_RemoveUnattachedPlaces.resx">
+      <DependentUpon>201410011850375_RemoveUnattachedPlaces.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
