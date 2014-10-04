@@ -132,7 +132,6 @@
     </Compile>
     <Compile Include="Models\AccountActivateViewModel.cs" />
     <Compile Include="Models\AccountLoginOrRegisterViewModel.cs" />
-    <Compile Include="Models\DictatorshipIndexViewModel.cs" />
     <Compile Include="Models\DictatorshipViewModel.cs" />
     <Compile Include="Models\HomeIndexDictatorshipViewModel.cs" />
     <Compile Include="Models\HomeIndexViewModel.cs" />
@@ -221,7 +220,8 @@
     <Content Include="Views\Account\LoginOrRegister.cshtml" />
     <Content Include="Views\Account\Activate.cshtml" />
     <Content Include="Views\Account\ActivateSecretInvalid.cshtml" />
-    <Content Include="Views\Dictatorship\Index.cshtml" />
+    <Content Include="Views\Dictatorship\Details.cshtml" />
+    <Content Include="Views\Dictatorship\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -52,11 +52,11 @@
             if (useVerb)
             {
                 name.AppendFormat("{0} ", Nouns[Randomiser.Next(Nouns.Count)]);
-                name.AppendFormat("{0} ", Verbs[Randomiser.Next(Verbs.Count)]);
+                name.Append(Verbs[Randomiser.Next(Verbs.Count)]);
             }
             else
             {
-                name.AppendFormat("{0} ", PluralNouns[Randomiser.Next(PluralNouns.Count)]);
+                name.Append(PluralNouns[Randomiser.Next(PluralNouns.Count)]);
             }
 
             return name.ToString();

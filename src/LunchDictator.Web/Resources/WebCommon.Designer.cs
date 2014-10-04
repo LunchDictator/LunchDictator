@@ -115,6 +115,60 @@ namespace LunchDictator.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dictatorship added successfully.
+        /// </summary>
+        public static string DictatorshipAdded {
+            get {
+                return ResourceManager.GetString("DictatorshipAdded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create.
+        /// </summary>
+        public static string DictatorshipCreateButton {
+            get {
+                return ResourceManager.GetString("DictatorshipCreateButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add new dictatorship.
+        /// </summary>
+        public static string DictatorshipCreateHeader {
+            get {
+                return ResourceManager.GetString("DictatorshipCreateHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image URL.
+        /// </summary>
+        public static string DictatorshipImageUrl {
+            get {
+                return ResourceManager.GetString("DictatorshipImageUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string DictatorshipName {
+            get {
+                return ResourceManager.GetString("DictatorshipName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Randomise.
+        /// </summary>
+        public static string DictatorshipRandomise {
+            get {
+                return ResourceManager.GetString("DictatorshipRandomise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This email is already in use.
         /// </summary>
         public static string LoginAlreadyTaken {
