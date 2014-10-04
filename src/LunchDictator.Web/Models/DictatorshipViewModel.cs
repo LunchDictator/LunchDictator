@@ -8,6 +8,7 @@
     {
         public int Id { get; set; }
 
+        [Required]
         [Display(Name = "DictatorshipName", ResourceType = typeof(WebCommon))]
         public string Name { get; set; }
 
