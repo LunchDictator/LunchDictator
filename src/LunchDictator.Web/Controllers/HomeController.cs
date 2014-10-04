@@ -24,29 +24,33 @@
 
                 foreach (var dictatorship in user.Dictatorships)
                 {
-                    var places = ctx.Places.ToList();
+                    var places = ctx.Places.Where(p => p.Dictatorship.Id == dictatorship.Id).ToList();
                     var dictatorshipModel = new HomeIndexDictatorshipViewModel()
                     {
+                        Id = dictatorship.Id,
+                        Name = dictatorship.Name,
                         Places =
-                            places.Where(p => p.Dictatorship.Id == dictatorship.Id).Select(p => new PlaceViewModel { ImageUrl = p.ImageUrl, Name = p.Name, Id = p.Id })
+                            places.Select(p => new PlaceViewModel { ImageUrl = p.ImageUrl, Name = p.Name, Id = p.Id })
                                 .ToList()
                     };
 
-                    var selection = ctx.PlaceSelections.SingleOrDefault(s => s.Date == today && s.Place.Dictatorship.Id == dictatorship.Id);
-
-                    if (selection == null)
+                    if (dictatorshipModel.Places.Any())
                     {
-                        var rand = new Random();
-                        selection = new PlaceSelection { Date = today, Place = places[rand.Next(places.Count)] };
-                        ctx.PlaceSelections.Add(selection);
+                        var selection = ctx.PlaceSelections.SingleOrDefault(s => s.Date == today && s.Place.Dictatorship.Id == dictatorship.Id);
 
-                        ctx.SaveChanges();
+                        if (selection == null)
+                        {
+                            var rand = new Random();
+                            selection = new PlaceSelection { Date = today, Place = places[rand.Next(places.Count)] };
+                            ctx.PlaceSelections.Add(selection);
+
+                            ctx.SaveChanges();
+                        }
+
+                        var selectedPlace = dictatorshipModel.Places.Single(p => p.Id == selection.Place.Id);
+                        selectedPlace.IsSelected = true;
+                        dictatorshipModel.SelectedPlace = selectedPlace.Name;
                     }
-
-
-                    var selectedPlace = dictatorshipModel.Places.Single(p => p.Id == selection.Place.Id);
-                    selectedPlace.IsSelected = true;
-                    dictatorshipModel.SelectedPlace = selectedPlace.Name;
 
                     model.DictatorshipViewModels.Add(dictatorshipModel);
                 }

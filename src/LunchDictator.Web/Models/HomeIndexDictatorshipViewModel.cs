@@ -1,21 +1,16 @@
 ﻿namespace LunchDictator.Web.Models
 {
+    using System;
     using System.Collections.Generic;
-
-    using LunchDictator.Web.Core;
 
     public class HomeIndexDictatorshipViewModel
     {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
         public string SelectedPlace { get; set; }
 
         public List<PlaceViewModel> Places { get; set; }
-
-        public string DictatorshipName
-        {
-            get
-            {
-                return RandomDictatorshipNameProvider.GetRandomDictatorshipName();
-            }
-        }
     }
 }

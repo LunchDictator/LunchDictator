@@ -8,9 +8,10 @@
     <h1>@WebCommon.UserHasNoDictatorshipsHeading</h1>
     <p>@WebCommon.UserHasNoDictatorshipsText</p>
 }
+<p>@Html.ActionLink("Add new dictatorship", "Create", "Dictatorship")</p>
 @foreach (var dictatorship in Model.DictatorshipViewModels)
 {
-    <h1>Today @dictatorship.DictatorshipName go to: <em>@dictatorship.SelectedPlace</em></h1>
+    <h1>Today <a href="@Url.Action("Details", "Dictatorship", new { id = dictatorship.Id })">@dictatorship.Name</a> go to: <em>@dictatorship.SelectedPlace</em></h1>
 
     <div class="places-box">
         <div class="row">

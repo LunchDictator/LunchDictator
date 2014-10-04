@@ -135,6 +135,24 @@
   <data name="ConfirmPassword" xml:space="preserve">
     <value>Confirm Password</value>
   </data>
+  <data name="DictatorshipAdded" xml:space="preserve">
+    <value>Dictatorship added successfully</value>
+  </data>
+  <data name="DictatorshipCreateButton" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="DictatorshipCreateHeader" xml:space="preserve">
+    <value>Add new dictatorship</value>
+  </data>
+  <data name="DictatorshipImageUrl" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="DictatorshipName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DictatorshipRandomise" xml:space="preserve">
+    <value>Randomise</value>
+  </data>
   <data name="LoginAlreadyTaken" xml:space="preserve">
     <value>This email is already in use</value>
   </data>
